@@ -4,6 +4,10 @@
 
 body {
     font-family: 'Poppins', sans-serif;
+    background-color: white;
+}
+
+.home {
     background:
     linear-gradient(red, transparent),
     linear-gradient(to top left, lime, transparent),
