@@ -52,6 +52,7 @@ nav{
 
 #flash-days h2 {
     background-color: rebeccapurple;
+    color: white;
 }
 .flash-day {
     flex-basis: 40%;
