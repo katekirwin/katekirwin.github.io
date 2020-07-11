@@ -4,6 +4,11 @@
 
 body {
     font-family: 'Poppins', sans-serif;
+    background:
+    linear-gradient(red, transparent),
+    linear-gradient(to top left, lime, transparent),
+    linear-gradient(to top right, blue, transparent);
+    background-blend-mode: screen;
 }
 
 
@@ -35,7 +40,7 @@ nav{
     justify-content: center;
 }
 
-#main-photo {
+#main-photo, #fleur-photo, #roary-photo, #cake, #cake2 {
     width: 200px;
     border-radius: 50%;
 }
@@ -59,6 +64,14 @@ nav{
     border: 5px solid black;
     padding: 20px;
     margin: 10px;
+    background-color: white;
+    height: 400px;
+    
+}
+
+.photos {
+    display: flex;
+    justify-content: space-around;
 }
 
 footer {
@@ -94,3 +107,11 @@ button {
 .contactheading {
     text-align: center;
 }
+
+/* .spectrum-background {
+    background:
+        linear-gradient(red, transparent),
+        linear-gradient(to top left, lime, transparent),
+        linear-gradient(to top right, blue, transparent);
+    background-blend-mode: screen;
+} */
